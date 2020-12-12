@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/amarante</item>
+        <item>@font/autour_one</item>
+        <item>@font/bad_script</item>
+        <item>@font/bangers</item>
+        <item>@font/chewy</item>
+        <item>@font/convergence</item>
+        <item>@font/oleo_script_bold</item>
+    </array>
+</resources>
