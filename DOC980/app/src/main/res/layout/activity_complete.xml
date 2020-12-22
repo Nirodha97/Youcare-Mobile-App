@@ -16,8 +16,8 @@
         android:paddingHorizontal="30dp"
         android:id="@+id/massage"/>
 
-
     <ImageView
+        android:id="@+id/qr"
         android:layout_gravity="center"
         android:layout_width="400dp"
         android:layout_height="400dp"
