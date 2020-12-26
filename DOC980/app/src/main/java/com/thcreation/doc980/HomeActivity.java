@@ -12,6 +12,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -98,5 +99,10 @@ public class HomeActivity extends AppCompatActivity {
         dialog.setContentView(R.layout.dialog_emergancy);
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         dialog.show();
+    }
+
+    public void dialogClose(View view)
+    {
+        dialog.dismiss();
     }
 }
