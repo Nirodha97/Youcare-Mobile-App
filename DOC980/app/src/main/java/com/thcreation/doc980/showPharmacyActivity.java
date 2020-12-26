@@ -84,4 +84,19 @@ public class showPharmacyActivity extends AppCompatActivity {
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         dialog.show();
     }
+
+    public void dialogClose(View view)
+    {
+        dialog.dismiss();
+    }
+
+    public void callNow(View view)
+    {
+
+    }
+
+    public void emergency(View view)
+    {
+
+    }
 }
